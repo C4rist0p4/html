@@ -93,6 +93,16 @@ body {
 
 .feature {
   padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.feature2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.feature3 {
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
