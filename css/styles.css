@@ -2,6 +2,10 @@ body {
   font-family: "Muli", sans-serif;
 }
 
+p {
+  color: rgb(117, 117, 117);
+}
+
 .header {
   height: 620px;
   background-image: url("../img/header-backround2-change.jpg");
@@ -79,10 +83,6 @@ body {
   color: rgb(30, 30, 30);
 }
 
-.service p {
-  color: rgb(117, 117, 117);
-}
-
 .service-icon {
   color: rgb(224, 224, 224);
   font-size: 1800%;
@@ -128,6 +128,46 @@ body {
   color: rgb(30, 30, 30);
 }
 
-.feature-text p {
-  color: rgb(117, 117, 117);
+.clients {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: rgb(250, 250, 250);
+}
+
+.clients-heading {
+  font-weight: lighter;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.clients-subheading {
+  text-align: center;
+}
+
+.client-image {
+  width: 100%;
+  border-radius: 10000px;
+  border: 5px solid rgb(250, 250, 250);
+}
+
+.client-quote {
+  border: 2px solid rgb(235, 235, 235);
+  background-color: rgb(250, 250, 250);
+  padding-top: 35px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 45px;
+  border-radius: 3px;
+  font-size: 150%;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.client-quote p {
+  margin-bottom: 5px;
+}
+.client-quote-author {
+  font-style: normal;
+  font-size: 70%;
+  color: rgb(119, 147, 197);
 }
