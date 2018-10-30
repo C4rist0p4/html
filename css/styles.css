@@ -4,6 +4,11 @@ body {
 p {
   color: rgb(117, 117, 117);
 }
+.cirlce-image {
+  width: 100%;
+  border-radius: 100000px;
+  border: 5px solid rgb(250, 250, 250);
+}
 .header {
   height: 620px;
   background-image: url("../img/header-backround2-change.jpg");
@@ -120,12 +125,6 @@ p {
   text-align: center;
   margin-bottom: 40px;
 }
-.client-image {
-  width: 100%;
-  border-radius: 100000px;
-  border: 5px solid rgb(250, 250, 250);
-  margin-bottom: 30px;
-}
 .client-quote {
   border: 2px solid rgb(235, 235, 235);
   background-color: rgb(255, 255, 255);
@@ -192,42 +191,53 @@ p {
 .team {
   padding-top: 100px;
   padding-bottom: 75px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(30, 30, 30);
 }
 .team_heading {
   font-weight: lighter;
-  margin-bottom: 0px;
   text-align: center;
   color: white;
-}
-
-.team_heading_text {
-  font-weight: lighter;
   margin-bottom: 0px;
+}
+.team_sub_heading {
+  font-weight: lighter;
   text-align: center;
-  color: gray;
+  margin-bottom: 50px;
 }
 .team-image {
-  width: 100%;
-  border-radius: 100000px;
-  border: 5px solid rgb(250, 250, 250);
-  margin-top: 90px;
+  max-width: 70%;
+}
+.team-image-container {
+  text-align: center;
 }
 .team-name {
   text-align: center;
   margin-bottom: 3px;
   color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.team-name-desc {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.team-icons {
+  text-align: center;
 }
 .team-icon {
-  width: 51px;
-  height: 41px;
-  padding-top: 10px;
-  background-color: rgb(30, 30, 30);
-  border-radius: 30px;
-  color: rgb(250, 250, 250);
+  color: white;
   border: 3px solid rgb(250, 250, 250);
+  width: 25px;
+  height: 25px;
+  border-radius: 200px;
+  display: inline-block;
   text-align: center;
-  font-size: 24px;
-  margin-left: 15px;
-  float: left;
+}
+.team-icon .fab {
+  margin-top: 5px;
+}
+.team-bottom-text {
+  margin-top: 25px;
+  color: gray;
+  text-align: center;
 }
