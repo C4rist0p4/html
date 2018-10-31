@@ -237,7 +237,46 @@ p {
   margin-top: 5px;
 }
 .team-bottom-text {
-  margin-top: 25px;
-  color: gray;
+  margin-top: 20px;
   text-align: center;
+}
+
+.message {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: rgb(101, 138, 206);
+}
+
+.message_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.message_sub_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.message-icons {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message-container {
+  padding-left: 0px;
+  font-weight: lighter;
+}
+
+.message-icons .fab {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.fab p {
+  float: right;
+  margin-left: 20px;
+  color: white;
 }
