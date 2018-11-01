@@ -26,6 +26,10 @@ p {
   margin-left: 26px;
   text-shadow: 0px 0px 1px black;
 }
+.header-navbar-links a {
+  color: white;
+  text-decoration: none;
+}
 .header-brand-wrapper {
   margin-top: 50px;
   float: left;
@@ -53,12 +57,12 @@ p {
   font-size: 250%;
   font-weight: bold;
 }
-.slogan-buttom {
+.slogan-button {
   margin-top: 12px;
   color: white;
   text-shadow: 0px 0px 2px black;
 }
-.slogan-buttom:hover {
+.slogan-button:hover {
   color: white;
   text-shadow: 0px 0px 2px black;
 }
@@ -240,43 +244,64 @@ p {
   margin-top: 20px;
   text-align: center;
 }
-
 .message {
   padding-top: 100px;
-  padding-bottom: 75px;
-  background-color: rgb(101, 138, 206);
+  padding-bottom: 100px;
+  background-color: rgb(118, 143, 197);
 }
-
 .message_heading {
   font-weight: lighter;
   color: white;
   margin-bottom: 20px;
 }
-
 .message_sub_heading {
   font-weight: lighter;
   color: white;
   margin-bottom: 0px;
 }
-
 .message-icons {
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-.message-container {
-  padding-left: 0px;
+.message-container p {
   font-weight: lighter;
-}
-
-.message-icons .fab {
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.fab p {
   float: right;
   margin-left: 20px;
   color: white;
+}
+.contact-from {
+  margin-bottom: 0px;
+}
+.contact-input {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.contact-message {
+  height: 140px;
+}
+input.contact-submit[type="submit"] {
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+/**
+* Footer
+*/
+.footer {
+  background-color: rgb(118, 143, 197);
+  text-align: center;
+  font-weight: lighter;
+}
+.footer p {
+  color: white;
+}
+.footer-hr {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
