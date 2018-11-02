@@ -26,6 +26,10 @@ p {
   margin-left: 26px;
   text-shadow: 0px 0px 1px black;
 }
+
+.header-navbar-links a:hover {
+  text-decoration: underline;
+}
 .header-navbar-links a {
   color: white;
   text-decoration: none;
@@ -276,6 +280,11 @@ p {
 .contact-input {
   width: 100%;
   margin-bottom: 28px;
+}
+
+input[type="text"]:focus,
+.contact-input:focus {
+  border: 1px solid black;
 }
 .contact-message {
   height: 140px;
