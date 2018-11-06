@@ -1,0 +1,324 @@
+@import "../vendor/skeleton-sass/skeleton.scss";
+
+body {
+  font-family: "Muli", sans-serif;
+}
+p {
+  color: rgb(117, 117, 117);
+}
+.cirlce-image {
+  width: 100%;
+  border-radius: 100000px;
+  border: 5px solid rgb(250, 250, 250);
+}
+.header {
+  height: 620px;
+  background-image: url("../img/header-backround2-change.jpg");
+  background-size: cover;
+  background-position: 50% 68%;
+}
+.header-navbar-links {
+  color: white;
+  float: right;
+  margin-top: 50px;
+}
+.header-navbar-links li {
+  float: left;
+  list-style-type: none;
+  margin-left: 26px;
+  text-shadow: 0px 0px 1px black;
+}
+.header-navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+.header-navbar-links a:hover {
+  color: rgb(200, 200, 200);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.header-brand-wrapper {
+  margin-top: 50px;
+  float: left;
+}
+.header-brand {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: -9%;
+  display: block;
+  text-shadow: 0px 0px 2px black;
+}
+.slogan {
+  padding-top: 145px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 2px black;
+}
+.slogan-top {
+  font-size: 170%;
+  font-weight: lighter;
+}
+.slogan-bottom {
+  font-size: 250%;
+  font-weight: bold;
+}
+.slogan-button {
+  margin-top: 12px;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.slogan-button:hover {
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.service {
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+.service-gray {
+  background-color: rgb(250, 250, 250);
+}
+.service-titled {
+  font-weight: lighter;
+  color: rgb(30, 30, 30);
+}
+.service-icon {
+  color: rgb(224, 224, 224);
+  font-size: 1500%;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: -10%;
+}
+.feature {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.feature2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.feature3 {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.feature-icon {
+  width: 70px;
+  height: 60px;
+  padding-top: 10px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 35px;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  transition: transform 0.3s;
+}
+.feature-icon:hover {
+  transform: rotate(360deg);
+}
+.feature-text {
+  margin-left: 95px;
+}
+.feature-text h5 {
+  font-size: 150%;
+  margin-bottom: 8px;
+  color: rgb(30, 30, 30);
+}
+.clients {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: rgb(250, 250, 250);
+}
+.clients-heading {
+  font-weight: lighter;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.clients-subheading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.client-quote {
+  border: 2px solid rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  font-size: 150%;
+  font-weight: lighter;
+  font-style: italic;
+  position: relative;
+}
+.client-quote p {
+  margin-bottom: 5px;
+}
+.client-quote-author {
+  font-style: normal;
+  font-size: 70%;
+  color: rgb(119, 147, 197);
+}
+.client-quote::before,
+.client-quote::after,
+.client-quote-left::before,
+.client-quote-left::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 50%;
+}
+.client-quote::before {
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid rgb(235, 235, 235);
+}
+.client-quote::after {
+  left: -26px;
+  margin-top: -13px;
+  border: 13px solid transparent;
+  border-right: 13px solid rgb(255, 255, 255);
+}
+.client-quote-left::before {
+  right: -30px;
+  left: auto;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid rgb(235, 235, 235);
+}
+.client-quote-left::after {
+  right: -26px;
+  left: auto;
+  margin-top: -13px;
+  border: 13px solid transparent;
+  border-left: 13px solid rgb(255, 255, 255);
+}
+.logo {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: rgb(255, 255, 255);
+}
+.team {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: rgb(30, 30, 30);
+}
+.team_heading {
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+.team_sub_heading {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-image {
+  max-width: 70%;
+}
+.team-image-container {
+  text-align: center;
+}
+.team-name {
+  text-align: center;
+  margin-bottom: 3px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.team-name-desc {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.team-icons {
+  text-align: center;
+}
+.team-icon {
+  color: white;
+  border: 3px solid rgb(250, 250, 250);
+  width: 25px;
+  height: 25px;
+  border-radius: 200px;
+  display: inline-block;
+  text-align: center;
+}
+.team-icon .fab {
+  margin-top: 5px;
+}
+.team-bottom-text {
+  margin-top: 20px;
+  text-align: center;
+}
+.message {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(118, 143, 197);
+}
+.message_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+}
+.message_sub_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 0px;
+}
+.message-icons {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.message-container p {
+  font-weight: lighter;
+  float: right;
+  margin-left: 20px;
+  color: white;
+}
+.contact-from {
+  margin-bottom: 0px;
+}
+.contact-input {
+  width: 100%;
+  margin-bottom: 28px;
+  background-color: white;
+}
+input[type="text"]:focus,
+.contact-input:focus {
+  border: 1px solid black;
+  background-color: rgb(230, 230, 230);
+}
+.contact-message {
+  height: 140px;
+}
+input.contact-submit[type="submit"] {
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+/**
+* Footer
+*/
+.footer {
+  background-color: rgb(118, 143, 197);
+  text-align: center;
+  font-weight: lighter;
+}
+.footer p {
+  color: white;
+}
+.footer-hr {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
