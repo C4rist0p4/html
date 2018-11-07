@@ -1,0 +1,58 @@
+/*
+*contact
+*/
+.message {
+  padding-top: $landing-padding;
+  padding-bottom: $landing-padding;
+  background-color: rgb(118, 143, 197);
+}
+.message_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+}
+.message_sub_heading {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 0px;
+}
+.message-icons {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @media ($bp-larger-than-phablet) {
+    width: 100%;
+    float: none;
+  }
+  @media ($bp-larger-than-desktop) {
+    width: 50%;
+    float: left;
+  }
+}
+.message-container p {
+  font-weight: lighter;
+  float: right;
+  margin-left: 20px;
+  color: white;
+}
+.contact-from {
+  margin-bottom: 0px;
+}
+.contact-input {
+  width: 100%;
+  margin-bottom: 28px;
+  background-color: white;
+}
+input[type="text"]:focus,
+.contact-input:focus {
+  border: 1px solid black;
+  background-color: rgb(230, 230, 230);
+}
+.contact-message {
+  height: 140px;
+}
+input.contact-submit[type="submit"] {
+  background-color: white;
+  margin-bottom: 0px;
+}

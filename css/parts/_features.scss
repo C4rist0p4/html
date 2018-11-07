@@ -1,0 +1,55 @@
+/**
+* Features - Bereich 
+*/
+.feature {
+  padding-top: $landing-padding;
+  padding-bottom: $landing-padding - 15px;
+}
+.feature2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.feature3 {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.feature-icon {
+  width: 70px;
+  height: 60px;
+  padding-top: 10px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 35px;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  transition: transform 0.3s;
+
+  @media ($bp-larger-than-phablet) {
+    display: none;
+  }
+  @media ($bp-larger-than-tablet) {
+    display: block;
+  }
+}
+.feature-icon:hover {
+  transform: rotate(360deg);
+}
+
+$feature-text-margin-left: 90px;
+
+.feature-text {
+  margin-left: $feature-text-margin-left;
+
+  @media ($bp-larger-than-phablet) {
+    margin-left: 0px;
+  }
+  @media ($bp-larger-than-tablet) {
+    margin-left: $feature-text-margin-left;
+  }
+}
+.feature-text h5 {
+  font-size: 150%;
+  margin-bottom: 8px;
+  color: rgb(30, 30, 30);
+}
