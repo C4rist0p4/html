@@ -1324,6 +1324,10 @@ input.contact-submit[type="submit"] {
   display: block;
 }
 
+#contact-sucess {
+  color: white;
+}
+
 /**
 * Footer
 */
