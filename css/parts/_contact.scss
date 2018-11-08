@@ -56,3 +56,10 @@ input.contact-submit[type="submit"] {
   background-color: white;
   margin-bottom: 0px;
 }
+.contact-label {
+  color: white;
+  display: none;
+}
+.no-placeholder .contact-label {
+  display: block;
+}

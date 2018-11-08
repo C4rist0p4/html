@@ -1315,6 +1315,15 @@ input.contact-submit[type="submit"] {
   margin-bottom: 0px;
 }
 
+.contact-label {
+  color: white;
+  display: none;
+}
+
+.no-placeholder .contact-label {
+  display: block;
+}
+
 /**
 * Footer
 */
@@ -1336,5 +1345,33 @@ input.contact-submit[type="submit"] {
 .footer a {
   color: white;
   text-decoration: none;
+}
+
+.seid-menu {
+  background-color: #f0f0f0;
+  padding-top: 5px;
+}
+
+.seid-menu h3 {
+  padding-left: 15px;
+}
+
+.seid-menu-navigation {
+  list-style-type: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+.seid-menu-navigation li {
+  border-top: 1px solid gainsboro;
+  margin-bottom: 0px;
+}
+
+.seid-menu-navigation a {
+  padding-left: 15px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #1e1e1e;
 }
 /*# sourceMappingURL=styles.css.map */
